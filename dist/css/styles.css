@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@600&display=swap");
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: "PT Sans", sans-serif;
+}
+
+nav {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px 0;
+  background-color: #F6F6F6;
+}
+
+nav .logo {
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+nav .menu {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+nav .menu a {
+  text-decoration: none;
+}
+
+nav .icons {
+  margin-right: 50px;
+  text-align: right;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: "PT Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: "PT Sans", sans-serif;
+}
+
+.session1 .banner {
+  width: 100%;
+  background-color: gray;
+  height: 500px;
+}
+
+.session1 .circles {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 150px;
+}
+
+.session1 .circles .circle {
+  background-color: gray;
+  border-radius: 50%;
+  width: 150px;
+  margin: 0 auto;
+  height: 150px;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: "PT Sans", sans-serif;
+}
+
+.session2 {
+  width: 100%;
+  height: 400px;
+  background-color: #F6F6F6;
+}
+
+.session2 .textSession2 {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.session2 .textSession2 p {
+  margin-top: 40px;
+}
+/*# sourceMappingURL=styles.css.map */

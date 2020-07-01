@@ -1,0 +1,23 @@
+@import "./global.scss";
+@import "./variables.scss";
+
+.session2 {
+    width: $widthTotalPage;
+    height: 600px;
+    background-color: $nav-color;
+
+    .textSession2 {
+        margin-left: 50px;
+        margin-top: 40px;
+        width: 400px;
+
+        p {
+            padding-top: 100px;
+        }
+
+        h3 {
+            padding-top: 50px;
+            font-size: 60px;    
+        }
+    }
+}

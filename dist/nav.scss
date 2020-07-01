@@ -1,0 +1,36 @@
+@import "./global.scss";
+@import "./variables.scss";
+
+nav{
+    display: grid;
+    align-items: center;
+    height: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 15px 0;
+    background-color: $nav-color;
+    
+    
+
+    .logo {
+        margin-left: 50px;
+        font-size: 40px;
+        font-weight: 900;
+        letter-spacing: 3px;
+    }
+    .menu {
+        justify-content: space-between;
+        width: $widthTotalPage;
+        display: flex;
+        flex: 1;
+
+        a {
+            text-decoration: none;
+            
+        }
+    }
+
+    .icons {
+        margin-right: 50px;
+        text-align: right;
+    }
+}

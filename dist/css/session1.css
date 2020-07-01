@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@600&display=swap");
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: "PT Sans", sans-serif;
+}
+
+.session1 .banner {
+  width: 100%;
+  background-color: gray;
+  height: 500px;
+}
+
+.session1 .circles {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 150px;
+}
+
+.session1 .circles .circle {
+  background-color: gray;
+  border-radius: 50%;
+  width: 150px;
+  margin: 0 auto;
+  height: 150px;
+}
+/*# sourceMappingURL=session1.css.map */

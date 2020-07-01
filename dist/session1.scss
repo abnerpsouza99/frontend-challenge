@@ -1,0 +1,30 @@
+@import "./global.scss";
+@import "./variables.scss";
+
+$widthCircle: 150px;
+$heightCircle: 150px;
+
+.session1 {
+    .banner {
+        width: $widthTotalPage;
+        background-color: $banner-color;
+        height: 500px;
+    }
+
+    .circles {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        height: 300px;
+        align-items: center;
+        margin: 30px 150px;
+
+        .circle {
+            background-color: $banner-color;
+            border-radius: 50%;
+            width: $widthCircle;
+            margin: 0 auto;
+            height: $heightCircle;
+        }
+
+    }
+}
