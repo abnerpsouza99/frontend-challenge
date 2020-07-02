@@ -1,0 +1,81 @@
+@import "./global.scss";
+@import "./variables.scss";
+
+$marginBannerTitle: 30px auto;
+
+.section2 {
+    width: $widthTotalPage;
+    height: 600px;
+    background-color: $nav-color;
+    margin-bottom: 50px;
+    
+
+    .contentSession2 {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-right: 50px;
+    
+        .textSession2 {
+            margin: 40px 50px;
+            width: 400px;
+    
+            p {
+                padding-top: 100px;
+            }
+    
+            h3 {
+                padding-top: 50px;
+                font-size: 60px;    
+            }
+    
+        }
+    
+        .bannerTitle {
+            margin-top: 40px;
+            padding-top: 100px;
+            height: 400px;
+            align-items: center;
+            text-align: center;
+    
+            .imgSession2 {
+                background-color: $banner-color;
+                height: 500px;
+            }
+    
+            h3 {
+                margin: $marginBannerTitle;
+            }
+    
+            p {
+                margin: $marginBannerTitle;
+            }
+        }
+    
+        .smallBannerTitle {
+            margin-top: 40px;
+            height: 400px;
+            align-items: center;
+            text-align: center;
+            
+    
+            .imgSession2 {
+                background-color: $banner-color;
+                height: 250px;
+            }
+    
+            h3 {
+                margin: $marginBannerTitle;
+            }
+    
+            p {
+                margin: $marginBannerTitle;
+            }
+        }
+    
+    
+    
+    }
+}
+    
+

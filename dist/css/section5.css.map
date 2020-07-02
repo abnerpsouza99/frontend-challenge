@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,qGAAI;AAIZ,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,IAAI,CAAC;EACD,gBAAgB,ECTP,OAAO;EDUhB,WAAW,ECXA,SAAS,EAAE,UAAU;CDYnC",
+    "sources": [
+        "../section5.scss",
+        "../global.scss",
+        "../variables.scss",
+        "../variables.scss"
+    ],
+    "names": [],
+    "file": "section5.css"
+}

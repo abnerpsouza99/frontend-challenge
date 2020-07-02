@@ -1,0 +1,43 @@
+@import "./global.scss";
+@import "./variables.scss";
+
+.section4 {
+  text-align: center;
+  
+
+  h2 {
+  }
+
+  .gridBoxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+
+    .boxInsta {
+
+      width: $widthTotalPage;
+      height: 400px;
+      background-color: $banner-color;
+      align-items: center;
+
+    }
+
+    .boxInstaMiddle {
+      width: $widthTotalPage;
+      height: 400px;
+      margin-top: 100px;
+      background-color: $banner-color;
+      align-items: center;
+
+      p {
+        margin: 150px 50px;
+        
+      }
+    }
+
+  }
+}
